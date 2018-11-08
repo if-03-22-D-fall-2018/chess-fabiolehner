@@ -62,8 +62,8 @@ bool get_piece_symbol(struct ChessPiece piece, ChessPieceSymbol piece_symbol)
 	switch (piece.type) {
 	case Pawn:
 		strcat(piece_symbol, "P");
-		break;
-
+		break
+		
 	case Rook:
 		strcat(piece_symbol, "R");
 		break;
